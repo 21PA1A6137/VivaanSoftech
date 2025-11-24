@@ -87,18 +87,36 @@ const Footer = () => {
               <div className="bg-primary-600 p-2 rounded-lg">
                 <Mail size={18} />
               </div>
-              <div>
+              {/* <div>
                 <div className="text-sm text-gray-400">Email Us</div>
                 <div className="text-white font-medium">vivaansoftech@gmail.com</div>
-              </div>
+              </div> */}
+              
+<div
+  className="text-white font-medium cursor-pointer"
+  onClick={() => { window.location.href = "mailto:vivaansoftech@gmail.com?subject=Inquiry"; }}
+  title="Compose email"
+>
+  vivaansoftech@gmail.com
+</div>
+
             </div>
             <div className="flex items-center justify-center sm:justify-start space-x-3 bg-gray-800/50 p-4 rounded-xl">
               <div className="bg-primary-600 p-2 rounded-lg">
                 <Phone size={18} />
               </div>
               <div>
-                <div className="text-sm text-gray-400">Call Us</div>
-                <div className="text-white font-medium">+91 9493865533</div>
+                {/* <div className="text-sm text-gray-400">Call Us</div>
+                <div className="text-white font-medium">+91 9493865533</div> */}
+              
+<div
+  className="text-white font-medium cursor-pointer"
+  onClick={() => { window.location.href = "tel:+919493865533"; }}
+  title="Call now"
+>
+  +91 9493865533
+</div>
+
               </div>
             </div>
           </div>
