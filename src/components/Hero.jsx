@@ -59,7 +59,7 @@ const Hero = () => {
                 alt="Students working on projects"
                 className="rounded-2xl shadow-2xl w-full"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div>
+              {/* <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl"></div> */}
             </div>
             
             <div className="absolute -bottom-4 -left-4 sm:-bottom-6 sm:-left-6 bg-white p-4 sm:p-6 rounded-2xl shadow-xl animate-bounce-slow">
@@ -83,9 +83,6 @@ const Hero = () => {
             </div>
             
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-              <button className="bg-white/90 backdrop-blur-sm p-4 rounded-full shadow-lg hover:scale-110 transition-transform duration-300">
-                <Play className="text-primary-600 ml-1" size={24} />
-              </button>
             </div>
           </div>
         </div>

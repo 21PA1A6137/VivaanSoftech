@@ -48,7 +48,7 @@ const Features = () => {
             Why Choose Us
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            Why Choose <span className="text-gradient">ProjectHub</span>?
+            Why Choose <span className="text-gradient">Vivaan Softech</span>?
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             We provide everything you need to excel in your final year project with confidence and achieve outstanding results
